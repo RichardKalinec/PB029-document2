@@ -1,3 +1,20 @@
+#header {
+    position: center
+    min-width: 36em
+    max-width: 72em
+    height: 5em
+    background-color: silver
+}
+
 h1 {
+    text-align: center
+    color:black
+}
+
+#content {
     
+}
+
+p {
+    text-align: justify
 }
