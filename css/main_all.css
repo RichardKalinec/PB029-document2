@@ -1,9 +1,13 @@
+body {
+    background-color: dimgray
+}
+
 #header {
-    position: center
-    min-width: 36em
-    max-width: 72em
+    min-width: 760px
+    max-width: 980px
     height: 5em
     background-color: silver
+    text-align: center
 }
 
 h1 {
@@ -15,6 +19,6 @@ h1 {
     
 }
 
-p {
+.text {
     text-align: justify
 }
