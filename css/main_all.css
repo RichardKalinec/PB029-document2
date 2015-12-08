@@ -1,24 +1,43 @@
 body {
-    background-color: dimgray
+    background-color: dimgray;
+    text-align: center;
 }
 
 #header {
-    min-width: 760px
-    max-width: 980px
-    height: 5em
-    background-color: silver
-    text-align: center
+    min-width: 760px;
+    max-width: 980px;
+    height: 44px;
+    margin: 0 auto;
+    background-color: silver;
 }
 
 h1 {
-    text-align: center
-    color:black
+    color: black;
+    text-align: center;
+    font-family: serif;
+}
+
+h2 {
+    color: blue;
+    text-align: left;
+    font-family: sans-serif;
 }
 
 #content {
-    
+    min-width: 760px;
+    max-width: 980px;
+    margin: 0 auto;
+    background-color: white;
+    text-align: justify;
+    font-family: serif;
 }
 
-.text {
-    text-align: justify
+.note {
+    min-width: 760px;
+    max-width: 980px;
+    margin: 0 auto;
+    font-style: italic;
+    background-color: gainsboro;
+    text-align: center;
+    font-family: serif;
 }
