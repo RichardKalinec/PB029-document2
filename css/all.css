@@ -1,0 +1,57 @@
+html {
+    background-image: url(background.jpg);
+    background-repeat: no-repeat;
+    background-origin: center;
+    background-clip: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: dimgray;
+}
+
+body {
+    min-width: 40em;
+    font-family: "Times New Roman", Times, "Liberation Serif", serif;
+    font-size: 100%;
+}
+
+#page-wrap {
+    min-width: 35em;
+    max-width: 45em;
+    padding: 0 2em 0 2em;
+    margin: 1.25em auto 1.25em auto;
+    background-color: white;
+}
+
+#header {
+    background-color: silver;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+    font-family: "Monotype Corsiva", "Times New Roman", "Liberation Serif", serif;
+    font-style: italic;
+    font-size: 3em;
+}
+
+h2 {
+    color: magenta;
+    text-align: left;
+    font-family: "Arial", "Liberation Sans", sans-serif;
+    font-size: 1.6em;
+}
+
+#content {
+    background-color: white;
+    text-align: justify;
+    font-size: 1.2em;
+}
+
+#footer {
+    background-color: gainsboro;
+}
+
+.note {
+    font-style: italic;
+    text-align: center;
+}
