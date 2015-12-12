@@ -1,25 +1,23 @@
 html {
     background-image: url(background.jpg);
     background-repeat: no-repeat;
-    background-origin: center;
-    background-clip: center;
     background-attachment: fixed;
     background-size: cover;
     background-color: dimgray;
 }
 
 body {
-    min-width: 40em;
+    min-width: 33em;
     font-family: "Times New Roman", Times, "Liberation Serif", serif;
     font-size: 100%;
 }
 
 #page-wrap {
-    min-width: 35em;
-    max-width: 45em;
-    padding: 0 2em 0 2em;
+    min-width: 23em;
+    max-width: 38em;
+    padding: 1em 5em 1em 5em;
     margin: 1.25em auto 1.25em auto;
-    background-color: white;
+    background-color: bisque;
 }
 
 #header {
@@ -27,24 +25,24 @@ body {
 }
 
 h1 {
-    color: red;
+    color: DarkRed;
     text-align: center;
     font-family: "Monotype Corsiva", "Times New Roman", "Liberation Serif", serif;
     font-style: italic;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 h2 {
-    color: magenta;
+    color: DeepPink;
     text-align: left;
     font-family: "Arial", "Liberation Sans", sans-serif;
-    font-size: 1.6em;
+    font-size: 1.25em;
 }
 
 #content {
-    background-color: white;
-    text-align: justify;
-    font-size: 1.2em;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1.15em;
 }
 
 #footer {
