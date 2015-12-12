@@ -1,11 +1,3 @@
-html {
-    background-image: url(background.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: dimgray;
-}
-
 body {
     min-width: 33em;
     font-family: "Times New Roman", Times, "Liberation Serif", serif;
@@ -36,13 +28,17 @@ h2 {
     color: DeepPink;
     text-align: left;
     font-family: "Arial", "Liberation Sans", sans-serif;
-    font-size: 1.25em;
+    font-size: 1.5em;
 }
 
-#content {
+p {
     text-align: left;
     line-height: 1.5;
     font-size: 1.15em;
+}
+
+a {
+    color: Red;
 }
 
 #footer {
@@ -51,5 +47,6 @@ h2 {
 
 .note {
     font-style: italic;
+    font-size: 1em;
     text-align: center;
 }

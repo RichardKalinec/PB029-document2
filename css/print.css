@@ -1,0 +1,15 @@
+h1 {
+    page-break-inside: avoid;
+    page-break-after: avoid;
+}
+
+h2 {
+    page-break-inside: avoid;
+    page-break-after: avoid;
+}
+
+.note {
+    page-break-before: avoid;
+    page-break-inside: avoid;
+    page-break-after: avoid;
+}
