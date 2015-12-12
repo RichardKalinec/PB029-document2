@@ -37,6 +37,13 @@ p {
     font-size: 1.15em;
 }
 
+ul {
+    padding-left: 1em;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 1.15em;
+}
+
 a {
     color: Red;
 }
