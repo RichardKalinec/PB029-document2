@@ -3,5 +3,9 @@ html {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    background-color: dimgray;
+    background-color: DimGray;
+}
+
+form {
+    background-color: snow;
 }

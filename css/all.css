@@ -52,6 +52,10 @@ span.outstanding {
     font-weight: bold;
 }
 
+span.informationLabel {
+    font-style: italic;
+}
+
 span.durationTime {
     font-family: "Courier New", "Liberation Mono", monospace;
 }
