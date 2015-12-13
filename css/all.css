@@ -37,7 +37,7 @@ p {
     font-size: 1.15em;
 }
 
-ul {
+ul, ol {
     padding-left: 1em;
     text-align: left;
     line-height: 1.5;
