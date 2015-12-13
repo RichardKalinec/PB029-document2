@@ -12,6 +12,10 @@ form {
     display: none;
 }
 
+img {
+    page-break-inside: avoid;
+}
+
 .note {
     page-break-before: avoid;
     page-break-inside: avoid;

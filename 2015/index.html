@@ -22,7 +22,7 @@
     </div>
     
     <!-- Jadro stránky. -->
-    <div id="content"> 
+    <div id="content">
         <form>
             Prejsť na iný ročník:
             <select name="" onChange="window.open(this.options[this.selectedIndex].value,'_self')">
@@ -31,7 +31,11 @@
                 <option value="../2013/index.html">2013 (13. ročník)</option>
                 <option value="../2012/index.html">2012 (12. ročník)</option>
             </select>
+            <a href="filmy.html">Filmy</a>
+            <a href="#vysledky">Výsledky</a>
+            <a href="fotogaleria.html">Fotogaléria</a>
         </form>
+        
         <h2>Základné informácie</h2>
         <p>
             <span class="informationLabel">Ročník:</span> 15.
@@ -39,40 +43,41 @@
         <p>
             <span class="informationLabel">Motto:</span> střih!
         </p>
+        
         <h2>Program</h2>
-        <p>
-            <span class="outstanding">Začiatok festivalu &ndash; 19:30</span>
+        <p class="outstanding">
+            Začiatok festivalu &ndash; 19:30
+        </p>
+        <p class="outstanding">
+            Najprv súťažné filmy:
         </p>
         <p>
-            <span class="outstanding">Najprv súťažné filmy:</span>
+            1. Charlie the Bunny Eating Tiny Sushi <span class="durationTime">(1:31)</span><br/>
+            2. ...ale už poslední <span class="durationTime">(9:40)</span><br/>
+            3. Shitman – A New Hero Is Born <span class="durationTime">(4:43)</span><br/>
+            4. Pygmalion <span class="durationTime">(8:27)</span><br/>
+            5. ňitř <span class="durationTime">(3:27)</span><br/>
+            6. Červená Karolka <span class="durationTime">(5:08)</span><br/>
+            7. Lifeless <span class="durationTime">(3:41)</span><br/>
         </p>
-        <ol>
-            <li>Charlie the Bunny Eating Tiny Sushi <span class="durationTime">(1:31)</span></li>
-            <li>...ale už poslední <span class="durationTime">(9:40)</span></li>
-            <li>Shitman – A New Hero Is Born <span class="durationTime">(4:43)</span></li>
-            <li>Pygmalion <span class="durationTime">(8:27)</span></li>
-            <li>ňitř <span class="durationTime">(3:27)</span></li>
-            <li>Červená Karolka <span class="durationTime">(5:08)</span></li>
-            <li>Lifeless <span class="durationTime">(3:41)</span></li>
-        </ol>
-        <p>
-            <span class="outstanding">Pauza <span class="durationTime">(20 minút)</span></span>
-        </p>
-        <ol>
-            <li>Burnout Syndrome <span class="durationTime">(3:50)</span></li>
-            <li>Happiness <span class="durationTime">(8:30)</span></li>
-            <li>Archie, the Gender Fighter <span class="durationTime">(1:03)</span></li>
-            <li>Čas hněvu <span class="durationTime">(4:36)</span></li>
-            <li>Cerveza <span class="durationTime">(3:58)</span></li>
-            <li>SMS <span class="durationTime">(4:31)</span></li>
-            <li>Špatná volba <span class="durationTime">(8:40)</span></li>
-            <li>Breath <span class="durationTime">(4:14)</span></li>
-        </ol>
-        <p>
-            <span class="outstanding">Pauza - hlasovanie <span class="durationTime">(10 minút)</span></span>
+        <p class="outstanding">
+            Pauza <span class="durationTime">(20 minút)</span>
         </p>
         <p>
-            <span class="outstanding">Nasledujú bonusové filmy:</span>
+            8. Burnout Syndrome <span class="durationTime">(3:50)</span><br/>
+            9. Happiness <span class="durationTime">(8:30)</span><br/>
+            10. Archie, the Gender Fighter <span class="durationTime">(1:03)</span><br/>
+            11. Čas hněvu <span class="durationTime">(4:36)</span><br/>
+            12. Cerveza <span class="durationTime">(3:58)</span><br/>
+            13. SMS <span class="durationTime">(4:31)</span><br/>
+            14. Špatná volba <span class="durationTime">(8:40)</span><br/>
+            15. Breath <span class="durationTime">(4:14)</span><br/>
+        </p>
+        <p class="outstanding">
+            Pauza - hlasovanie <span class="durationTime">(10 minút)</span>
+        </p>
+        <p class="outstanding">
+            Nasledujú bonusové filmy:
         </p>
         <ul>
             <li>Trailer 15. FF FI (PV110) <span class="durationTime">(1:16)</span></li>
@@ -83,12 +88,13 @@
             <li>Happiness – Behind the Scenes <span class="durationTime">(2:21)</span></li>
             <li>Dokument 14. FF FI <span class="durationTime">(7:47)</span></li> 
         </ul>
-        <p>
-            <span class="outstanding">Vyhlásenie výsledkov hlasovania</span>
+        <p class="outstanding">
+            Vyhlásenie výsledkov hlasovania
         </p>
-        <p>
-            <span class="outstanding">Afterparty</span>
+        <p class="outstanding">
+            Afterparty
         </p>
+        
         <h2>Odborná porota</h2>
         <ul>
             <li>vyučujúci predmetu &ndash; Petr Sojka,Robert Král, Radovan Hakl, Josef Víšek</li>
@@ -98,6 +104,48 @@
                 <a href="http://www.filmdat.cz/osoby.php?detail=33">http://www.filmdat.cz/osoby.php?detail=33</a></li>
             <li>Miroslav Maixner, riaditeľ B16, <a href="http://brno16.cz/">http://brno16.cz/</a></li>
         </ul>
+        
+        <a id="vysledky"><h2>Výsledky hlasovania</h2></a>
+        <p class="outstanding">
+            Hlasovanie odbornej poroty
+        </p>
+        <p>
+            1. Pygmalion<br/>
+            2. Ňitř<br/>
+            3. Lifeless<br/>
+            4.-5. Špatná volba<br/>
+            4.-5. Shitman – A New Hero Is Born<br/>
+            6. SMS<br/>
+            7.-8. ...ale už poslední<br/>
+            7.-8. Happiness<br/>
+            9.-11. Burnout Syndrome<br/>
+            9.-11. Červená Karolka<br/>
+            9.-11. Archie, the Gender Fighter<br/>
+            12.-13. Breath<br/>
+            12.-13. Charlie the Bunny Eating Tiny Sushi<br/>
+            14.-15. Čas hněvu<br/>
+            14.-15. Cerveza<br/> 
+        </p>
+        <p class="outstanding">
+            Hlasovanie divákov
+        </p>
+        <p>
+            1. Shitman – A New Hero Is Born<br/>
+            2. Pygmalion<br/>
+            3. SMS<br/>
+            4. Charlie the Bunny Eating Tiny Sushi<br/>
+            5. Archie, the Gender Fighter<br/>
+            6. Špatná volba<br/>
+            7. Ňitř<br/>
+            8. Happiness<br/>
+            9. Červená Karolka<br/>
+            10. Burnout Syndrome<br/>
+            11. ...ale už poslední<br/>
+            12. Lifeless<br/>
+            13. Cerveza<br/>
+            14. Breath<br/>
+            15. Čas hněvu<br/> 
+        </p>
     </div>
     
     <!-- Päta. -->

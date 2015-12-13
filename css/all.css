@@ -37,7 +37,7 @@ p {
     font-size: 1.15em;
 }
 
-ul, ol {
+ul {
     padding-left: 1em;
     text-align: left;
     line-height: 1.5;
@@ -48,16 +48,27 @@ a {
     color: Red;
 }
 
-span.outstanding {
+.outstanding {
     font-weight: bold;
 }
 
-span.informationLabel {
+.informationLabel {
     font-style: italic;
 }
 
-span.durationTime {
+.durationTime {
     font-family: "Courier New", "Liberation Mono", monospace;
+}
+
+img.imageFullContent {
+    max-width:100%;
+    max-height:100%;
+}
+
+img.imageQuarterPreview {
+    max-width: 40%;
+    max-height: 40%;
+    margin: 1.05em;
 }
 
 #footer {
