@@ -16,6 +16,10 @@ img {
     page-break-inside: avoid;
 }
 
+.trailer {
+    display: none;
+}
+
 .note {
     page-break-before: avoid;
     page-break-inside: avoid;

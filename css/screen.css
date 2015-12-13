@@ -9,3 +9,9 @@ html {
 form {
     background-color: snow;
 }
+
+.trailer {
+    margin-left: 4px;
+    width: 600px;
+    height: 337.5px;
+}
