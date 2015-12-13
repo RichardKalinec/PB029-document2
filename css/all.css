@@ -66,9 +66,9 @@ img.imageFullContent {
 }
 
 img.imageQuarterPreview {
-    max-width: 40%;
-    max-height: 40%;
-    margin: 1.05em;
+    width: 30%;
+    height: 30%;
+    margin: 0.55em;
 }
 
 #footer {
