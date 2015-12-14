@@ -3,12 +3,11 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="sk">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-    <meta http-equiv="Content-Language" content="sk"/>
     <meta name="author" content="Richard Kalinec"/>
     <meta name="description" content="Stránka o Filmových festivaloch Fakulty informatiky Masarykovej univerzity v rokoch 2013 - 2015; druhý zápočtový dokument do predmetu PB029."/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="../css/all.css" media="all"/>
-    <link rel="stylesheet" type="text/css" href="../css/screen.css" media="screen, projection, handheld, tv"/>
+    <link rel="stylesheet" type="text/css" href="../css/screen.css" media="screen"/>
     <link rel="stylesheet" type="text/css" href="../css/print.css" media="print"/>
     <title>FF FI MU 2013 - filmy</title>
 </head>
@@ -23,9 +22,10 @@
     
     <!-- Jadro stránky. -->
     <div id="content"> 
-        <form>
+        <div class="navigation">
+            <a href="../index.html">Hlavná stránka</a>
             Prejsť na iný ročník:
-            <select name="" onChange="window.open(this.options[this.selectedIndex].value,'_self')">
+            <select name="year" onchange="window.open(this.options[this.selectedIndex].value,'_self')">
                 <option value="../2015/index.html">2015 (15. ročník)</option>
                 <option value="../2014/index.html">2014 (14. ročník)</option>
                 <option value="../2013/index.html">2013 (13. ročník)</option>
@@ -33,7 +33,7 @@
             <a href="filmy.html">Filmy</a>
             <a href="index.html#vysledky">Výsledky</a>
             <a href="fotogaleria.html">Fotogaléria</a>
-        </form>
+        </div>
         
         <h2>Súťažná sekcia</h2>
         
@@ -550,5 +550,6 @@
     <div id="footer">
         <p class="note">Zdroj: <a href="http://festival.fi.muni.cz">festival.fi.muni.cz</a></p>
     </div>
+</div>
 </body>
 </html>

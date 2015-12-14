@@ -6,11 +6,13 @@ html {
     background-color: DimGray;
 }
 
-form {
+.navigation {
     background-color: snow;
+    line-height: 2em;
 }
 
 .trailer {
+    border-style: none;
     margin-left: 4px;
     width: 600px;
     height: 337.5px;

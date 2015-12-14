@@ -7,8 +7,8 @@ body {
 #page-wrap {
     min-width: 23em;
     max-width: 38em;
-    padding: 1em 5em 1em 5em;
-    margin: 1.25em auto 1.25em auto;
+    padding: 1em 5em;
+    margin: 1.25em auto;
     background-color: bisque;
 }
 
